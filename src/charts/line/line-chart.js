@@ -1,6 +1,6 @@
 import {Decorators} from '@dean_neal/core';
 import Tpl from './line-chart.html';
-import {Chart} from '@dean_neal/controls';
+import {Chart} from '../chart';
 
 @Decorators.ComponentDecorator({
     selector: 'ace-line-chart',
@@ -32,7 +32,7 @@ import {Chart} from '@dean_neal/controls';
             width: 600
         }
     },
-    super: Controls.Chart
+    super: Chart
 })
 export class LineChartComponent {
     INPUT(params) {

@@ -1,5 +1,5 @@
 import {Decorators} from '@dean_neal/core';
-import {Chart} from '@dean_neal/controls';
+import {Chart} from '../chart';
 import Tpl from './bar-chart.html';
 
 @Decorators.ComponentDecorator({
