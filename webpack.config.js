@@ -23,8 +23,8 @@ module.exports = {
         filename: outputFile,
         publicPath: 'build',
         library: libraryName,
-        libraryTarget: 'umd',
-        umdNamedDefine: true
+        libraryTarget: 'commonjs2',
+        umdNamedDefine: false   
     },
     module: {
         loaders: [{
