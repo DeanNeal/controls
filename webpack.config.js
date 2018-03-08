@@ -5,6 +5,7 @@ var SmartBannerPlugin = require('smart-banner-webpack-plugin');
 // var CopyWebpackPlugin = require('copy-webpack-plugin');
 // var HtmlWebpackPlugin = require('html-webpack-plugin');
 var CleanWebpackPlugin = require('clean-webpack-plugin');
+var nodeExternals = require('webpack-node-externals');
 // var CssSourceMapPlugin = require('css-sourcemaps-webpack-plugin');
 // var HtmlWebpackHarddiskPlugin = require('html-webpack-harddisk-plugin');
 const NODE_ENV = process.env.NODE_ENV || 'dev';
@@ -15,6 +16,8 @@ var outputFile = libraryName + '.js';
  const packageJSON = require('./package.json');
 
 module.exports = {
+    target: 'node', // in order to ignore built-in modules like path, fs, etc. 
+    externals: [nodeExternals()], // in order to ignore all modules in node_modules folder 
     entry: {
         index: ['./src/index.js']
     },
@@ -22,9 +25,9 @@ module.exports = {
         path: path.join('build'),
         filename: outputFile,
         publicPath: 'build',
-        library: libraryName,
+        library: 'libraryName',
         libraryTarget: 'commonjs2',
-        umdNamedDefine: false   
+        umdNamedDefine: true   
     },
     module: {
         loaders: [{
@@ -58,12 +61,20 @@ module.exports = {
     },
 
     plugins: [
-        new webpack.optimize.CommonsChunkPlugin({
-          name: "vendor",
-          minChunks: function(module){
-            return module.context && module.context.includes("node_modules");
-          }
-        })
+        // new webpack.optimize.CommonsChunkPlugin({
+        //   name: "vendor",
+        //   minChunks: function(module){
+        //     return module.context && module.context.includes("node_modules");
+        //   }
+        // })
+        // new NpmSubmodulePlugin({
+        //      module: 'myproject',
+        //      autoInstall: true,
+        //      commands: [
+        //        'compile',
+        //        'dist'
+        //      ]
+        //    })
     ],
     // Create Sourcemaps for the bundle
     // devtool: 'source-map',
