@@ -2,8 +2,8 @@
 
   > AceJs - is a MVVM front-end framework based on web components technology.
 
-[![NPM](https://img.shields.io/npm/v/dean_neal-controls.svg)](https://www.npmjs.com/package/dean_neal-controls)
-[![Downloads](https://img.shields.io/npm/dm/dean_neal-controls.svg)](http://npm-stat.com/charts.html?package=dean_neal-controls)
+[![NPM](https://img.shields.io/npm/v/@dean_neal/controls.svg)](https://www.npmjs.com/package/@dean_neal/controls)
+[![Downloads](https://img.shields.io/npm/dm/@dean_neal/controls.svg)](http://npm-stat.com/charts.html?package=@dean_neal/controls)
 [![License](https://img.shields.io/github/license/DeanNeal/dean_neal-controls.svg?style=flat-square)](https://npmjs.org/package/dean_neal-controls)
 [![Issues](https://img.shields.io/github/issues/DeanNeal/dean_neal-controls.svg?style=flat-square)](https://github.com/DeanNeal/dean_neal-controls/issues)
 
