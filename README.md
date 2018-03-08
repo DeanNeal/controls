@@ -1,11 +1,9 @@
-# AceJS
-
-  > AceJs - is a MVVM front-end framework based on web components technology.
+# @dean_neal/controls
 
 [![NPM](https://img.shields.io/npm/v/@dean_neal/controls.svg)](https://www.npmjs.com/package/@dean_neal/controls)
 [![Downloads](https://img.shields.io/npm/dm/@dean_neal/controls.svg)](http://npm-stat.com/charts.html?package=@dean_neal/controls)
-[![License](https://img.shields.io/github/license/DeanNeal/dean_neal-controls.svg?style=flat-square)](https://npmjs.org/package/dean_neal-controls)
-[![Issues](https://img.shields.io/github/issues/DeanNeal/dean_neal-controls.svg?style=flat-square)](https://github.com/DeanNeal/dean_neal-controls/issues)
+[![License](https://img.shields.io/github/license/DeanNeal/@dean_neal/controls.svg?style=flat-square)](https://npmjs.org/package/@dean_neal/controls)
+[![Issues](https://img.shields.io/github/issues/DeanNeal/@dean_neal/controls.svg?style=flat-square)](https://github.com/DeanNeal/@dean_neal/controls/issues)
 
 ## Don't use it in production. It's alpha version!!!
 ## Installation
@@ -18,17 +16,17 @@ Using npm:
 npm i @dean_neal/controls
 ```
 
-Get lastest version of dean_neal-controls:
+Get lastest version of @dean_neal/controls:
 ```
-npm i dean_neal-controls@latest
+npm i @dean_neal/controls@latest
 ```
 
 In your code:
 
 ```bash
-let AceJs = require('dean_neal-controls');
+let Controls = require('@dean_neal/controls');
 or
-import {...} from 'dean_neal-controls';
+import {...} from '@dean_neal/controls';
 ```
 
 ## License
