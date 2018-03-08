@@ -8,7 +8,7 @@
 ## Don't use it in production. It's alpha version!!!
 ## Installation
 
-[![NPM](https://nodei.co/npm/dean_neal-controls.png)](https://nodei.co/npm/dean_neal-controls/)
+[![NPM](https://nodei.co/npm/@dean_neal/controls.png)](https://nodei.co/npm/@dean_neal/controls/)
 
 Using npm:
 
