@@ -1,6 +1,6 @@
-import {Decorators, Controls} from '@dean_neal/core';
+import {Decorators} from '@dean_neal/core';
 import Tpl from './line-chart.html';
-// import {Chart} from './../chart';
+import {Chart} from '@dean_neal/controls';
 
 @Decorators.ComponentDecorator({
     selector: 'ace-line-chart',

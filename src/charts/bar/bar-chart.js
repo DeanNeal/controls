@@ -1,4 +1,5 @@
-import {Decorators, Controls} from '@dean_neal/core';
+import {Decorators} from '@dean_neal/core';
+import {Chart} from '@dean_neal/controls';
 import Tpl from './bar-chart.html';
 
 @Decorators.ComponentDecorator({
@@ -27,7 +28,7 @@ import Tpl from './bar-chart.html';
             width: 600
         }
     },
-    super: Controls.Chart
+    super: Chart
 })
 export class BarChartComponent {
     INPUT(params) {
