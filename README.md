@@ -2,36 +2,34 @@
 
   > AceJs - is a MVVM front-end framework based on web components technology.
 
-[![NPM](https://img.shields.io/npm/v/ace-js.svg)](https://www.npmjs.com/package/ace-js)
-[![Downloads](https://img.shields.io/npm/dm/ace-js.svg)](http://npm-stat.com/charts.html?package=ace-js)
-[![License](https://img.shields.io/github/license/DeanNeal/ace-js.svg?style=flat-square)](https://npmjs.org/package/ace-js)
-[![Issues](https://img.shields.io/github/issues/DeanNeal/ace-js.svg?style=flat-square)](https://github.com/DeanNeal/ace-js/issues)
+[![NPM](https://img.shields.io/npm/v/dean_neal-controls.svg)](https://www.npmjs.com/package/dean_neal-controls)
+[![Downloads](https://img.shields.io/npm/dm/dean_neal-controls.svg)](http://npm-stat.com/charts.html?package=dean_neal-controls)
+[![License](https://img.shields.io/github/license/DeanNeal/dean_neal-controls.svg?style=flat-square)](https://npmjs.org/package/dean_neal-controls)
+[![Issues](https://img.shields.io/github/issues/DeanNeal/dean_neal-controls.svg?style=flat-square)](https://github.com/DeanNeal/dean_neal-controls/issues)
 
 ## Don't use it in production. It's alpha version!!!
 ## Installation
 
-[![NPM](https://nodei.co/npm/ace-js.png)](https://nodei.co/npm/ace-js/)
+[![NPM](https://nodei.co/npm/dean_neal-controls.png)](https://nodei.co/npm/dean_neal-controls/)
 
 Using npm:
 
 ```bash
-npm i -S ace-js
+npm i @dean_neal/controls
 ```
 
-Get lastest version of ace-js:
+Get lastest version of dean_neal-controls:
 ```
-npm i ace-js@latest
+npm i dean_neal-controls@latest
 ```
 
 In your code:
 
 ```bash
-let AceJs = require('ace-js');
+let AceJs = require('dean_neal-controls');
 or
-import {...} from 'ace-js';
+import {...} from 'dean_neal-controls';
 ```
-## Documentation - https://ace-js-deanneal.c9users.io/
-
 
 ## License
 
